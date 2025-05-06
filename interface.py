@@ -1,4 +1,3 @@
-
 import streamlit as st
 import lib
 from graphviz import Digraph
@@ -283,9 +282,13 @@ def page_find_best_tree():
 # Main Application
 poke_bank = load_poke_bank()  # Load the bank at startup
 st.sidebar.title("Poke Breeding Simulator")
-page = st.sidebar.radio("Navigate", ["Manage Poke Bank", "Find Best Tree for Target Pokémon"])
+page = st.sidebar.radio("Navigate", ["Manage Poke Bank", "Find Best Tree for Target Poke"])
+
+st.sidebar.markdown("---")  # Adds a horizontal line for separation
+st.sidebar.markdown("Liked this application? Send a gift in-game to <Moriarttie> :D")
 
 if page == "Manage Poke Bank":
     page_manage_poke_bank()
-elif page == "Find Best Tree for Target Pokémon":
+elif page == "Find Best Tree for Target Poke":
     page_find_best_tree()
+
