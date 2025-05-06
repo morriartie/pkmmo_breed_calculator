@@ -7,7 +7,7 @@ docker run -p 8501:8501 pkmn
 ```
 
 ## How to use
-![main page](https://github.com/morriartie/pkmmo_breed_calculator/blob/main/images/main_page1.jpeg "Main page")
+![main page](https://raw.githubusercontent.com/morriartie/pkmmo_breed_calculator/refs/heads/main/images/main_page1.jpeg "Main page")
 
 * Add the pokes you already have into the tab "Manage Poke Bank"
 
