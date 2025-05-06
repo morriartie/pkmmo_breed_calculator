@@ -1,0 +1,22 @@
+digraph {
+	graph [rankdir=TB]
+	"02fd0b7" [label="02fd0b7\nStats: + + - - +\nGender: (f)"]
+	"9d052bb" [label="9d052bb\nStats: * + - - -\nGender: (m)"]
+	a2d3f1e [label="a2d3f1e\nStats: - + - - *\nGender: (f)"]
+	"9d052bb" -> "02fd0b7"
+	a2d3f1e -> "02fd0b7"
+	"9d052bb" [label="9d052bb\nStats: * + - - -\nGender: (m)"]
+	"97d9315" [label="97d9315\nStats: * - - - -\nGender: (m)"]
+	c6b385c [label="c6b385c\nStats: - * - - -\nGender: (f)"]
+	"97d9315" -> "9d052bb"
+	c6b385c -> "9d052bb"
+	"97d9315" [label="97d9315\nStats: * - - - -\nGender: (m)" style=dotted]
+	c6b385c [label="c6b385c\nStats: - * - - -\nGender: (f)" style=dotted]
+	a2d3f1e [label="a2d3f1e\nStats: - + - - *\nGender: (f)"]
+	"5c4b5c5" [label="5c4b5c5\nStats: - - - - *\nGender: (m)"]
+	d52e9db [label="d52e9db\nStats: - * - - -\nGender: (f)"]
+	"5c4b5c5" -> a2d3f1e
+	d52e9db -> a2d3f1e
+	"5c4b5c5" [label="5c4b5c5\nStats: - - - - *\nGender: (m)" style=dotted]
+	d52e9db [label="d52e9db\nStats: - * - - -\nGender: (f)" style=dotted]
+}
